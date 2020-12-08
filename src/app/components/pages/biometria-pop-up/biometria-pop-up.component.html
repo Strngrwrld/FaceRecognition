@@ -1,0 +1,32 @@
+<div *ngIf="!flag" class="container col-12">
+    <div class="row col-12 justify-content-center">
+        <p class="title"><strong>PASOS A SEGUIR PARA UNA CORRECTA VALIDACIÓN</strong></p>
+    </div>
+    <div class="row col-12 justify-content-center">
+        <P class="col-12">1. Presione <strong>"Emprezar prueba de vida"</strong></P>
+        <p class="col-12">2. Luego de aperturar el pop-up, mire fijamente a la camara y no se mueva</p>
+        <p class="col-12">3.<strong> Sonria</strong> y luego de <strong>5 segundos</strong> se realizará de manera automatica una captura facial</p>
+    </div>
+
+    <div class="col-12 row justify-content-center">
+        <img class="img-fluid" src="">
+    </div>
+    <div class="col-12 row justify-content-center">
+        <button mat-raised-button (click)="start()" type="button">Empezar prueba de vida</button>
+    </div>
+
+</div>
+
+<div *ngIf="flag" class="container">
+    <div class=" col align-items-center">
+        <p>Solicitud de verificación biometrica para: <strong>{{persona}}</strong></p>
+        <p>Rostro detectado : <strong>{{sexo}}</strong></p>
+        <p><strong>{{comentario}}</strong><span *ngIf="cuenta">, Manten durante <strong>{{timeLeft}}</strong> segundos</span></p>
+    </div>
+
+    <div id="marco" class="row justify-content-center">
+        <div class="row  justify-content-center">
+            <video id="cam" width="650vw" height="400vh" autoplay muted></video>
+        </div>
+    </div>
+</div>

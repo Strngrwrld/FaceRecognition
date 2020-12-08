@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.mat-dialog-container {
+    margin: 0px !important;
+    padding: 0px !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("/assets/img/bg3.jpg") !important;
+}

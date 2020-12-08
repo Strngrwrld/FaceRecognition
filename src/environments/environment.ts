@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  FACE_IDENTY : "https://southcentralus.api.cognitive.microsoft.com/face/v1.0/detect?returnFaceId=true&returnFaceLandmarks=false&recognitionModel=recognition_01&returnRecognitionModel=false&detectionModel=detection_01",
+  FACE_VERIFY : "https://southcentralus.api.cognitive.microsoft.com/face/v1.0/verify",
+  DOMINIO: "http://localhost:8080"
 };
 
 /*

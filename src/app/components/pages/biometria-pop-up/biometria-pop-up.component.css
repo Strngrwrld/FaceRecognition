@@ -1,0 +1,61 @@
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#marco {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 20px;
+    color: #002A8D;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px;
+    color: black;
+}
+
+.img-fluid {
+    margin: 20px;
+}
+
+.mat-dialog-container {
+    background-color: #002A8D;
+}
+
+canvas {
+    position: absolute !important;
+}
+
+button {
+    margin: 20px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #FF9333 !important;
+}
+
+.mat-dialog-container {
+    background-color: #0071BD !important;
+}
+
+.leyendFieldSet {
+    background-color: #818181 !important;
+    padding: 0.2em 0.5em;
+    color: #FFFFFF;
+    font-size: 90%;
+    text-align: left;
+    font-weight: normal;
+    min-width: 70px;
+    width: fit-content;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 0px solid #000000;
+}
